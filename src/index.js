@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import "./style.css";
+
 const calc = [{id: "par1", sym: "("},{id: "par2", sym: ")"},{id: "back", sym: "<-"},{id: "clear", sym: "AC"},{id: "seven", sym: "7"},{id: "eight", sym: "8"},{id: "nine", sym: "9"},{id: "divide", sym: "÷"},{id: "four", sym: "4"},{id: "five", sym: "5"}, {id: "six", sym: "6"},{id: "multiply", sym: "×"}, {id: "one", sym: "1"}, {id: "two", sym: "2"}, {id: "three", sym:"3"}, {id: "subtract", sym: "-"},{id: "zero", sym: "0"}, {id: "decimal", sym: "."}, {id: "equals",sym: "="}, {id: "add", sym: "+"}];
 
 const opReg = /[\+\-\×\÷]+$/;
